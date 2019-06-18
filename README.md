@@ -62,3 +62,4 @@
 | image_desktop | string |    The URL to the large (desktop) version of the main event image (hero image).  |
 | price | string |    The price of the event.  |
 | full_description | string |    Long description of the event. Contains HTML.  |
+| image_mobile | string |    The URL to the mobile version of the main event image (hero image). Not always available.  |
