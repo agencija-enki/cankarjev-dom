@@ -1,16 +1,15 @@
 **Cankarjev dom API**
 ----
-  <_Returns the list of events for the requested month._>
+  Returns the list of events for the requested month.
 
 * **URL**
 
-  <_https://www.cd-cc.si/koledar/mesec/$month/all_>
+  https://www.cd-cc.si/koledar/mesec/$month/all
 
 * **Method:**
   
-  <_GET_>
+  `GET`
 
-  `GET` | `POST` | `DELETE` | `PUT`
   
 *  **URL Params**
 
