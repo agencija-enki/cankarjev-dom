@@ -22,21 +22,6 @@
   * **Code:** 200 <br />
     **Content:**
     
-| Field   |      Type      |  Description |
-|----------|:-------------:|------:|
-| title |  string | The title of the event. |
-| times |    string   |   The start time of the event. In case of full day events, the value is always 23:59 |
-| url | string |    Relative URL of the event |
-| full_url | string |    Absolute URL of the event  |
-| day | string |    The day of the event, used internally. Can be empty.  |
-| multiple_day | boolean |    Indicates a multiple day event e.g. an exhibition.  |
-| description | string |    Short description of the event.  |
-| category | string |    The main category of the event e.g. Music, Cinema, ...  |
-| hall | string |    The hall where the event takes place.  |
-| image_desktop | string |    The URL to the large (desktop) version of the main event image (hero image).  |
-| price | string |    The price of the event.  |
-| full_description | string |    Long description of the event. Contains HTML.  |
-
 ```json
 {
   "events": {
@@ -62,3 +47,18 @@
   }
 }
 ```
+
+| Field   |      Type      |  Description |
+|----------|:-------------:|------:|
+| title |  string | The title of the event. |
+| times |    string   |   The start time of the event. In case of full day events, the value is always 23:59 |
+| url | string |    Relative URL of the event |
+| full_url | string |    Absolute URL of the event  |
+| day | string |    The day of the event, used internally. Can be empty.  |
+| multiple_day | boolean |    Indicates a multiple day event e.g. an exhibition.  |
+| description | string |    Short description of the event.  |
+| category | string |    The main category of the event e.g. Music, Cinema, ...  |
+| hall | string |    The hall where the event takes place.  |
+| image_desktop | string |    The URL to the large (desktop) version of the main event image (hero image).  |
+| price | string |    The price of the event.  |
+| full_description | string |    Long description of the event. Contains HTML.  |
