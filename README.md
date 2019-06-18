@@ -13,11 +13,11 @@
   
 *  **URL Params**
 
-   <_$month = requested month_> 
+   <_$month = requested month e.g. https://www.cd-cc.si/koledar/mesec/01-06-2019/all for June 2019_> 
  
 * **Success Response:**
   
-  <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
+  <_The events object contains all the days in the month, each day can contain multiple event objects, sorted by the start time of the show (if available).  _>
 
   * **Code:** 200 <br />
     **Content:**
@@ -62,12 +62,3 @@
   }
 }
 ```
-
-
-* **Sample Call:**
-
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
-
-* **Notes:**
-
-  <_This is where all uncertainties, commentary, discussion etc. can go. I recommend timestamping and identifying oneself when leaving comments here._> 
