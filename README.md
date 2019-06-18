@@ -13,12 +13,12 @@
   
 *  **URL Params**
 
-   <_$month = requested month e.g. https://www.cd-cc.si/koledar/mesec/01-06-2019/all for June 2019_> 
+   $month = requested month e.g. https://www.cd-cc.si/koledar/mesec/01-06-2019/all for June 2019 
  
 * **Success Response:**
   
-  <_The events object contains all the days in the month, each day can contain multiple event objects, sorted by the start time of the show (if available).  _>
-
+  The events object contains all the days in the month, each day can contain multiple event objects, sorted by the start time of the show (if available).
+  
   * **Code:** 200 <br />
     **Content:**
     
